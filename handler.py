@@ -359,6 +359,5 @@ def handler(job):
     return result
 
 
-if __name__ == "__main__":
-    print("worker-comfyui - Starting handler...")
-    runpod.serverless.start({"handler": handler})
+print("worker-comfyui - Starting handler...")
+runpod.serverless.start({"handler": handler})
